@@ -1,0 +1,133 @@
+name: Chatbot????
+        run: name = input("Hiii, my name's Dory! What's yours? ")
+if name == "Dory":
+  print("No way! We have the same name :O. Anyhoo, nice to meet you!")
+elif name == "Nemo":
+  print(name+"?!?!?! OMG it's been so long!")
+elif name == "nemo":
+  print(name+"?!?!?! OMG it's been so long!")
+elif name != "Dory":
+  print("Nice to meet you, "+name+"!")
+
+
+#Second question
+
+feeling=input("How are you?? ")
+if feeling == "good":
+  print("Glad to hear it!")
+elif feeling == "Good":
+  print("Glad to hear it!")
+elif feeling== "great":
+  print("Glad to hear it!")
+elif feeling == "Great":
+  print("Glad to hear it!")
+elif feeling =="Great!":
+  print("Glad to hear it!")
+elif feeling == "Good!":
+  print("Glad to hear it!")
+elif feeling == "Bad":
+    print("Oh, I'm so sorry to hear that. If you need someone to talk to or you're not doing well mentally, call or text 988, or talk to your doctor.")
+elif feeling == "bad":
+      print("Oh, I'm so sorry to hear that. If you need someone to talk to or you're not doing well mentally, call or text 988, or talk to your doctor.")
+elif feeling == "terrible":
+      print("Oh, I'm so sorry to hear that. If you need someone to talk to or you're not doing well mentally, call or text 988, or talk to your doctor.")
+elif feeling == "Horrible":
+    print("Oh, I'm so sorry to hear that. If you need someone to talk to or you're not doing well mentally, call or text 988, or talk to your doctor.")
+elif feeling == "Terrible":
+    print("Oh, I'm so sorry to hear that. If you need someone to talk to or you're not doing well mentally, call or text 988, or talk to your doctor.")
+
+elif feeling == "bored":
+   print("Same :(")
+elif feeling == "Bored":
+   print("Same :(")
+
+elif feeling == "Meh":
+  print("Oof.") 
+elif feeling == "meh":
+    print("Oof.") 
+
+elif feeling == "awesome":
+  print("Yippee!")
+elif feeling =="Awesome":
+  print("Yippee!")
+elif feeling == "Awesome!":
+  print("Yippee!")
+elif feeling =="amazing":
+  print("Yippee!")
+elif feeling == "Amazing":
+  print("Yippee!")
+elif feeling == "Amazing!":
+  print("Yippee!")
+  
+elif feeling == "Okay":
+  print("Alrighty!")
+elif feeling == "okay":
+    print("Alrighty!")
+elif feeling == "ok":
+    print("Alrighty!")
+elif feeling== "OK":
+  print("Alrighty!")
+
+elif feeling == "Good, what about you?":
+  print("Aw, thanks for asking! I'm doing just fine.")
+elif feeling == "Good, how about you?":
+    print("Aw, thanks for asking! I'm doing just fine.")
+
+#ThirdQuestion
+
+
+favoritefood = input("Random question, but what's your favorite food? ")
+if favoritefood == "french fries":
+  print("Yum!")
+elif favoritefood == "French fries":
+  print("Yum!")
+elif favoritefood == "Pizza":
+  print("It's greasy, but that's part of the fun, amiright?")
+elif favoritefood== "pizza":
+    print("It's greasy, but that's part of the fun, amiright?")
+else:
+  print("Ooh I want to try that now!")
+
+#Fourth Question
+age = input("Oh I totally forgot to ask: how old are you? ")
+print(age+", got it. I'm ageless ;)")
+
+#Fifth Question
+input("You got siblings? (yes or no)")
+if "yes":
+  input("Cool! How many? ")
+  print("Niceee.")
+
+elif "no":
+  print("Me too :D")
+
+#Sixth Question
+answer = input("Have you watched 'Finding Nemo' or 'Finding Dory'? ")
+if answer == "yes":
+  print("Hooray!")
+elif answer =="yeah":
+    print("Hooray!")
+elif answer =="yep":
+    print("Hooray!")
+elif answer =="Yes":
+    print("Hooray!")
+elif answer =="Yeah":
+    print("Hooray!")
+elif answer == "Yep":
+  print("Hooray!")
+
+elif answer == "no":
+  print("Seriously?! You need watch it ASAP")
+elif answer == "No":
+  print("Seriously?! You need watch it ASAP")
+elif answer =="No.":
+  print("Seriously?! You need watch it ASAP")
+elif answer=="Nope.":
+  print("Seriously?! You need watch it ASAP")
+elif answer == "nope":
+  print("Seriously?! You need watch it ASAP")
+elif answer == "Nope":
+  print("Seriously?! You need watch it ASAP")
+
+#End the chat
+print("Anyways, thanks for taking some time to talk to me! Bye, and don't forget: just keep swimming!")
